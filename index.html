@@ -6,84 +6,85 @@
     <title>mARTa</title>
     <style>
         body {
-            font-family: 'Georgia', serif;
-            background: linear-gradient(to bottom right, #fcd5ce, #f9dcc4, #f8edeb);
-            margin: 40px;
-            color: #222;
+            font-family: Georgia, serif;
+            background: linear-gradient(to bottom right, #fceabb, #f8edeb);
+            margin: 50px auto;
+            max-width: 800px;
+            color: #2e2e2e;
+            line-height: 1.6;
+            padding: 0 20px;
         }
-        .title-section {
+        .header {
             display: flex;
             align-items: center;
             justify-content: flex-start;
+            margin-bottom: 30px;
         }
-        .title-section h1 {
-            font-family: 'Pacifico', cursive;
-            font-size: 48px;
+        .header h1 {
+            font-family: 'Dancing Script', cursive;
+            font-size: 56px;
             margin-right: 20px;
+            color: #b35c2e;
         }
-        .title-section img {
-            width: 80px;
-            height: auto;
+        .header img {
+            height: 90px;
+            width: auto;
         }
-        .text-image {
-            display: flex;
-            align-items: flex-start;
-            justify-content: space-between;
-            margin: 30px 0;
+        .paragraph {
+            margin-bottom: 30px;
         }
-        .text-image img {
-            width: 150px;
-            height: auto;
-            margin: 0 20px;
+        .paragraph img {
+            vertical-align: middle;
+            margin-left: 15px;
+            max-height: 120px;
         }
-        .text-left img {
-            order: -1;
+        .inline-img-left {
+            float: left;
+            margin: 5px 20px 10px 0;
+            max-height: 120px;
+        }
+        .inline-img-right {
+            float: right;
+            margin: 5px 0 10px 20px;
+            max-height: 120px;
         }
         .final-image {
-            display: flex;
-            justify-content: center;
-            margin-top: 40px;
-        }
-        .final-image img {
-            width: 200px;
+            display: block;
+            margin: 50px auto 0;
+            max-width: 220px;
             height: auto;
         }
     </style>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="title-section">
+    <div class="header">
         <h1>mARTa</h1>
         <img src="balloon.jpg" alt="Balloon">
     </div>
 
-    <div>
-        <p>This space is born from love, devotion, and an eternal bond.</p>
-        <p>It is dedicated to my sweet, blissful, strong-minded, and deeply artistic daughter, Martha — eternally in our hearts, eternally unattainable, eternally 8 years old.</p>
-        <p>She left behind a world of inspiration which lives on in every piece I create.</p>
+    <div class="paragraph">
+        <p>This space is born from love, devotion, and an eternal bond. It is dedicated to my sweet, blissful, strong-minded, and deeply artistic daughter, Martha — eternally in our hearts, eternally unattainable, eternally 8 years old. She left behind a world of inspiration which lives on in every piece I create.<img src="peach.jpg" alt="Peach"></p>
     </div>
 
-    <div class="text-image text-right">
-        <p>Her sense of color, shape, and beauty ran deep.<br>Her drawings, her crafts, her playful eye – all were inimitable. Yet I dare and try, with her spirit in mind.</p>
-        <img src="sunflower.jpg" alt="Sunflower">
+    <div class="paragraph">
+        <img src="sunflower.jpg" alt="Sunflower" class="inline-img-left">
+        <p>Her sense of color, shape, and beauty ran deep. Her drawings, her crafts, her playful eye – all were inimitable. Yet, with her spirit in mind, I dare and try.</p>
     </div>
 
-    <div class="text-image text-left">
-        <img src="peach.jpg" alt="Peach">
-        <p>From Christmas trees in every shape and form, to vibrant flowers, to cute animals with playful details — her legacy radiates in every handmade piece that now takes shape.</p>
+    <div class="paragraph">
+        <p>This space isn’t about perfection, persicion. It’s about imagination, comunication, expression of joy and simple forms that radiate warmth, color and comfort. It’s a little handmade world, simple and sincere, that speaks to anyone who still carries that childlike sense of wonder.</p>
     </div>
 
-    <div class="text-image text-right">
-        <p>It’s not about perfection — it’s about warmth, connection, and the charm of simplicity.<br>A space that speaks to those who carry inside the joy of a child’s eye and heart.</p>
-        <img src="rainbow.jpg" alt="Rainbow">
+    <div class="paragraph">
+        <p>Every piece in mARTa is crafted with care, heart, and a spark of childhood magic. From Christmas trees in every shape and form, to vibrant flowers, to playful abstractions — these creations are lively, heartfelt, and full of emotions.<img src="rainbow.jpg" alt="Rainbow"></p>
     </div>
 
-    <div class="text-image text-left">
-        <img src="picasso.jpg" alt="Picasso">
-        <p>My hope is that these creations brighten your home and soul. That they connect you with the child you once were — that they bring back laughter, memories, and a feeling of closeness and love.</p>
+    <div class="paragraph">
+        <img src="picasso.jpg" alt="Picasso" class="inline-img-left">
+        <p>My hope is to create decorations that evoke new sensations, yet take you back — to joy, to memories, to that carefree feeling. I hope what you find here can enlighten and enrich your eyesight, bring warmth to your heart and rekindle memories.</p>
     </div>
 
-    <div class="final-image">
-        <img src="branch.jpg" alt="Branch">
-    </div>
+    <img src="branch.jpg" alt="Branch" class="final-image">
 </body>
 </html>
