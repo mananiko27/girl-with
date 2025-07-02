@@ -11,7 +11,7 @@
             margin: 50px auto;
             max-width: 800px;
             color: #2e2e2e;
-            line-height: 1.6;
+            line-height: 1.7;
             padding: 0 20px;
         }
         .header {
@@ -26,6 +26,12 @@
             margin-right: 20px;
             color: #b35c2e;
         }
+        .subtitle {
+            font-family: Georgia, serif;
+            font-size: 18px;
+            color: #444;
+            margin-top: -10px;
+        }
         .header img {
             height: 90px;
             width: auto;
@@ -33,25 +39,23 @@
         .paragraph {
             margin-bottom: 30px;
         }
-        .paragraph img {
-            vertical-align: middle;
-            margin-left: 15px;
-            max-height: 120px;
+        .paragraph-flex {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            margin-bottom: 30px;
         }
-        .inline-img-left {
-            float: left;
-            margin: 5px 20px 10px 0;
-            max-height: 120px;
+        .paragraph-flex img {
+            max-height: 160px;
+            width: auto;
         }
-        .inline-img-right {
-            float: right;
-            margin: 5px 0 10px 20px;
-            max-height: 120px;
+        .paragraph-flex.reverse {
+            flex-direction: row-reverse;
         }
         .final-image {
             display: block;
             margin: 50px auto 0;
-            max-width: 220px;
+            max-width: 240px;
             height: auto;
         }
     </style>
@@ -62,13 +66,15 @@
         <h1>mARTa</h1>
         <img src="balloon.jpg" alt="Balloon">
     </div>
+    <div class="subtitle">girl with a balloon</div>
 
-    <div class="paragraph">
-        <p>This space is born from love, devotion, and an eternal bond. It is dedicated to my sweet, blissful, strong-minded, and deeply artistic daughter, Martha — eternally in our hearts, eternally unattainable, eternally 8 years old. She left behind a world of inspiration which lives on in every piece I create.<img src="peach.jpg" alt="Peach"></p>
+    <div class="paragraph-flex reverse">
+        <p>This space is born from love, devotion, and an eternal bond. It is dedicated to my sweet, blissful, strong-minded, and deeply artistic daughter, Martha — eternally in our hearts, eternally unattainable, eternally 8 years old. She left behind a world of inspiration which lives on in every piece I create.</p>
+        <img src="peach.jpg" alt="Peach">
     </div>
 
-    <div class="paragraph">
-        <img src="sunflower.jpg" alt="Sunflower" class="inline-img-left">
+    <div class="paragraph-flex">
+        <img src="sunflower.jpg" alt="Sunflower">
         <p>Her sense of color, shape, and beauty ran deep. Her drawings, her crafts, her playful eye – all were inimitable. Yet, with her spirit in mind, I dare and try.</p>
     </div>
 
@@ -76,12 +82,13 @@
         <p>This space isn’t about perfection, persicion. It’s about imagination, comunication, expression of joy and simple forms that radiate warmth, color and comfort. It’s a little handmade world, simple and sincere, that speaks to anyone who still carries that childlike sense of wonder.</p>
     </div>
 
-    <div class="paragraph">
-        <p>Every piece in mARTa is crafted with care, heart, and a spark of childhood magic. From Christmas trees in every shape and form, to vibrant flowers, to playful abstractions — these creations are lively, heartfelt, and full of emotions.<img src="rainbow.jpg" alt="Rainbow"></p>
+    <div class="paragraph-flex reverse">
+        <p>Every piece in mARTa is crafted with care, heart, and a spark of childhood magic. From Christmas trees in every shape and form, to vibrant flowers, to playful abstractions — these creations are lively, heartfelt, and full of emotions.</p>
+        <img src="rainbow.jpg" alt="Rainbow">
     </div>
 
-    <div class="paragraph">
-        <img src="picasso.jpg" alt="Picasso" class="inline-img-left">
+    <div class="paragraph-flex">
+        <img src="picasso.jpg" alt="Picasso">
         <p>My hope is to create decorations that evoke new sensations, yet take you back — to joy, to memories, to that carefree feeling. I hope what you find here can enlighten and enrich your eyesight, bring warmth to your heart and rekindle memories.</p>
     </div>
 
